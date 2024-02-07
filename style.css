@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(236, 236, 240);
+}
+.all{
+    background-position: center;
+    padding: 10px 10px;
+    overflow: hidden;
+    position: relative;
+}
+.all {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    transform: translateY(250px);
+}
+.first{
+    width: 50%;
+}
+.double a{
+    text-decoration: none;
+}
+.double{
+    text-align: center;
+}
+.text{
+    height: 17%;
+    width: 100%;
+    padding: 5px;
+    border: solid rgba(132, 132, 132, 0.174);
+    border-radius: 5px;
+}
+.second{
+    width: 110%;
+    height: 90%;
+    box-shadow: 6px 6px 6px  rgba(89, 76, 76, 0.205);
+    margin-bottom: 20px;
+    background-color: white;
+    padding: 20px;
+}
+.first h1{
+    color: rgb(49, 99, 249);
+    font-size: 100px;
+}
+.first p{
+    font-size: 30px;
+}
+.btn1{
+    height: 17%;
+    width: 100%;
+    color: white;
+    background-color: rgb(49, 99, 249);
+    border: solid rgba(255, 255, 255, 0);
+    border-radius: 5px;
+    margin-bottom: 3px;
+}
+.btn2{
+    border: solid rgba(255, 255, 255, 0);
+    border-radius: 5px;
+    background-color: rgb(7, 178, 53);
+    color: white;
+    height: 17%;
+    width: 60%;
+margin-top: 10px;
+margin-bottom: 30px;
+}
+h5{
+    margin-bottom: 10px;
+    margin-top: 5px;
+    color: rgb(49, 99, 249);
+}
+span a{
+    color: black;
+    font-size: 15px;
+    
+}
+.sp{
+    font-size: 13px;
+    margin-left: 10px;
+}
+@media screen and (max-width:985px){
+    .first{
+        font-size: 9px;
+        }
+        .double{
+            width: 250px;
+            height: 330px;
+            margin-left: 45px;
+        }
+        .btn1,.btn2{
+            margin: auto;
+        }
+        .first{
+            font-size: 9px;
+            width: 50%;
+        }
+        .first p{
+            font-size: 25px;
+        }
+        .first h1{
+            font-size: 70px;
+        }
+        .btn2{
+            margin-top: 10px;
+        }
+        .sp{
+            font-size: 10px;
+        }
+}
+@media screen and (max-width:744px){
+    /* .first{
+        font-size: 9px;
+        } */
+        .double{
+            width: 250px;
+            height: 280px;
+            margin-left: 35px;
+        }
+        .btn1,.btn2{
+            margin: auto;
+        }
+        .first{
+            font-size: 9px;
+            width: 40%;
+        }
+        .first p{
+            font-size: 28px;
+        }
+        .first h1{
+            font-size: 60px;
+        }
+        .btn2{
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+}
+@media screen and (max-width:645px){
+    /* .first{
+        font-size: 9px;
+        } */
+        .double{
+            width: 250px;
+            height: 280px;
+            margin-left: 40px;
+        }
+        .btn1,.btn2{
+            margin: auto;
+        }
+        .first{
+            /* font-size: 9px; */
+            width: 40%;
+        }
+        .first p{
+            font-size: 28px;
+        }
+        .first h1{
+            font-size: 55px;
+        }
+        .btn2{
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+}
+@media screen and (max-width:569px){
+    /* .first{
+        font-size: 9px;
+        } */
+        .double{
+            width: 250px;
+            height: 280px;
+            margin-left: 50px;
+        }
+        .btn1,.btn2{
+            margin: auto;
+        }
+        .first{
+            /* font-size: 9px; */
+            width: 30%;
+        }
+        .first p{
+            font-size: 26px;
+        }
+        .first h1{
+            font-size: 45px;
+        }
+        .btn2{
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+}
+@media screen and (max-width:539px){
+    /* .first{
+        font-size: 9px;
+        } */
+        .double{
+            /* width: 200px; */
+            width: 70%;
+            height: 280px;
+            margin-left: 50px;
+        }
+        .btn1,.btn2{
+            margin: auto;
+        }
+        .first{
+            /* font-size: 9px; */
+            width: 30%;
+        }
+        .first p{
+            font-size: 26px;
+        }
+        .first h1{
+            font-size: 40px;
+        }
+        .btn2{
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+        .all{
+            height: 100%;
+            width: 90%;
+        }
+}
+@media screen and (max-width:462px){
+    .double{
+        height: 280px;
+        margin-left: 50px;
+
+    }
+    .btn1,.btn2{
+        margin: auto;
+    }
+    
+    .first{
+        margin-bottom: 25px;
+        height: 100%;
+    }
+    .first p{
+        font-size: 26px;
+    }
+    .first h1{
+        font-size: 40px;
+    }
+    .btn2{
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+}
+
+
